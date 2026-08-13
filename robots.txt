@@ -1,0 +1,39 @@
+# North Atlanta Automotive
+#
+# Answer-engine crawlers are allowed deliberately, not by default. This is a
+# local service business with nothing proprietary to protect and everything to
+# gain from being cited when someone asks an AI what a brake job costs in
+# Peachtree Corners. This decision was made explicitly with the client.
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: *
+Allow: /
+
+# The admin screens are static placeholders with no backend. They are not
+# public content and there is nothing to gain from having them indexed.
+Disallow: /admin/
+
+Sitemap: https://northatlantaautomotive.com/sitemap.xml

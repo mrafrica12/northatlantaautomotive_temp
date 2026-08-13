@@ -1,0 +1,16 @@
+{
+  "name": "North Atlanta Automotive",
+  "short_name": "NAA",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#b32025",
+  "icons": [
+    {
+      "src": "assets/images/logo/north-atlanta-automotive-logo-icon.webp",
+      "sizes": "512x512",
+      "type": "image/webp"
+    }
+  ]
+}
